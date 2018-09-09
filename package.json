@@ -1,0 +1,19 @@
+{
+  "name": "cross-browser-extension-api",
+  "version": "1.0.0",
+  "description": "Cross browser extension API library written in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --progress --colors --mode=development --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matin Fazli",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^5.0.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {}
+}
