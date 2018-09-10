@@ -3,6 +3,7 @@ import {BookmarksAPI} from "./BookmarksAPI";
 import {BrowserActionsAPI} from "./BrowserActionsAPI";
 import {BrowsingDataAPI} from "./BrowsingDataAPI";
 import {CommandsAPI} from "./CommandsAPI";
+import {CookiesAPI} from "./CookiesAPI";
 
 export interface API {
     alarms: AlarmsAPI;
@@ -10,4 +11,5 @@ export interface API {
     browserActions: BrowserActionsAPI;
     browsingData: BrowsingDataAPI;
     commands: CommandsAPI;
+    cookies: CookiesAPI
 }
