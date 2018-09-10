@@ -1,5 +1,5 @@
 import {AlarmsAPI} from "./AlarmsAPI";
 
-export interface ExtensionAPI {
+export interface API {
     alarms: AlarmsAPI;
 }
